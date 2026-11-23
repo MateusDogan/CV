@@ -1,0 +1,56 @@
+%-------------------------
+% commands.sty - Resume Macros
+%-------------------------
+\ProvidesPackage{commands}
+
+\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-2pt}}}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{\small#3} & \textit{\small#4}
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small#2}
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & #2
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeheader}{%
+  \begin{center}
+    % Removi o \scshape (small caps) pois alguns ATS antigos não interpretam bem.
+    % Mantive o Huge e o negrito para hierarquia visual.
+    \textbf{\Huge \myName} \\ \vspace{1pt}
+    
+    % Título agora com as palavras-chave críticas
+    \large \myTitle \\ \vspace{2pt}
+    
+    \small
+    % Removi os \underline dos links. O ATS lê melhor o texto puro,
+    % e o href já garante o clique no PDF.
+    \href{tel:\myPhone}{\myPhone} \, $|$ \,
+    \href{mailto:\myEmail}{\myEmail} \, $|$ \,
+    \href{\myLinkedInURL}{\myLinkedInText} \, $|$ \,
+    \href{\myWhatsAppURL}{\myWhatsAppText} \, $|$ \,
+    %\href{\myGitHubURL}{\myGitHubText}
+  \end{center}
+}
