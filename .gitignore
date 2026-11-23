@@ -5,7 +5,3 @@
 *.fls
 *.fdb_latexmk
 *.synctex.gz
-build/
-.github/
-.claude/
-CLAUDE.md
