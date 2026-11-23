@@ -16,7 +16,7 @@ Vagas de **júnior e trainee** nas três áreas, para depois da formatura (dez. 
 
 - [ ] Resumo: "Graduando em..." vira "Bacharel em Matemática Aplicada e Computacional".
 - [ ] Formação: tirar "(previsão)" da data.
-- [ ] Estágio: trocar "Presente" pela data final e passar os verbos para o passado.
+- [ ] Estágio (termina em dez. 2026): se for efetivado, manter o estágio com data final e acrescentar o novo cargo na Les com a data de início e "Presente", no formato dos dois cargos da SEMAP, com as tarefas atuais no presente. Só escrever o novo cargo depois de confirmado, com o nome oficial. Sem efetivação, usar a data final e os verbos no passado.
 - [ ] Monitoria e Iniciação Científica: o mesmo, se tiverem terminado.
 - [ ] Conferir o título do cabeçalho de cada versão com o nome das vagas que estiver mirando (por exemplo, "Analista de Dados Júnior").
 
