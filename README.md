@@ -22,7 +22,22 @@ dados/ fpa/ produto/
   habilidades.tex
 ```
 
-Ordem das seções: resumo → formação → experiência → projetos → habilidades → certificações.
+Ordem das seções: resumo → formação → experiência → projetos → habilidades → certificações. A experiência segue a ordem cronológica reversa nas três versões (estágio → iniciação científica → monitoria → SEMAP coordenador → SEMAP assessor).
+
+## O que muda em cada versão
+
+| | Dados | FP&A | Produto |
+|---|---|---|---|
+| Título | Análise de Dados \| Ciência de Dados \| Engenharia de Dados | FP&A \| Planejamento Financeiro \| Forecasting | Product Manager \| Product Owner \| Dados |
+| Cargo no estágio | Estagiário de Análise de Dados (FP&A) | Estagiário de Planejamento Financeiro (FP&A) | Estagiário de FP&A e Produtos de Dados |
+| Foco do estágio | pipelines de ETL, qualidade de dados, forecasting e KPIs | forecast e orçamento, fechamento (DRE, orçado x realizado, conciliação), relatórios automáticos | ferramenta interna, redesenho com a diretoria, definição de KPIs e ciclos de feedback |
+| Iniciação científica | 2 bullets | 2 bullets | 1 bullet |
+| Projetos | Previsão de Demanda e PINNs (2 bullets cada) | Previsão de Demanda (2) e PINNs (1) | só Previsão de Demanda, voltada à decisão de negócio |
+| Habilidades | Dados, Machine Learning e Estatística, Ferramentas | Finanças, Ferramentas, Análise | Produto, Dados, Idiomas |
+
+Iguais nas três: formação, monitoria, SEMAP e certificações (Google Data Analytics e Google Project Management, numa linha).
+
+Espaço livre no fim da página: Dados e FP&A estão quase no limite; Produto tem cerca de 7 linhas, reservadas para algo de produto (projeto com métricas de uso, curso de Product Management, Jira, Figma, Amplitude, GA4).
 
 ## Compilar
 
@@ -45,4 +60,5 @@ Os PDFs vão para a raiz e são versionados: sempre compile e faça commit dos P
 ## Pendências
 
 - [ ] Links dos certificados do Coursera em `sty/variables.sty` (`\certAnalyticsURL`, `\certProjectURL`, hoje `URL_HERE`).
-- [ ] Adaptar resumo, experiência, projetos e habilidades de `fpa/` e `produto/` (hoje são cópias de `dados/`, só o título muda).
+- [ ] Confirmar se "apoiar o planejamento da produção do restaurante" (projeto de Previsão de Demanda, versão de Produto) descreve o objetivo real do projeto.
+- [ ] Manter o perfil do LinkedIn igual ao currículo: o LinkedIn usa os dados do perfil, não só o PDF anexado.
