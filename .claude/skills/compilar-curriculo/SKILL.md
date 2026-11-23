@@ -25,4 +25,6 @@ description: Compila o currículo LaTeX (main.tex) em CV.pdf localmente com o Mi
 
 5. Para medir espaço livre, veja onde o texto termina na página renderizada e informe em linhas aproximadas.
 
+Antes de enviar, rode `git pull --rebase -X theirs`: o GitHub Actions faz commit do `CV.pdf` a cada push, e sem isso o push é recusado.
+
 Regras: mudanças no conteúdo do currículo só com aprovação do usuário. O GitHub Actions também compila a cada push, mas a conferência de uma página é feita aqui, antes do commit.
