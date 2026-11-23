@@ -8,6 +8,18 @@ Currículos em LaTeX, de uma página cada, pensados para leitura humana e para f
 | FP&A | [`CV_Mateus_Dogan_FPA.pdf`](CV_Mateus_Dogan_FPA.pdf) |
 | Product Manager / Product Owner | [`CV_Mateus_Dogan_Produto.pdf`](CV_Mateus_Dogan_Produto.pdf) |
 
+## Objetivo
+
+Vagas de **júnior e trainee** nas três áreas, para depois da formatura (dez. 2026) e do fim do estágio na Les. Enquanto o Mateus estiver cursando, o texto "Graduando" e "Dez. 2026 (previsão)" está correto.
+
+### Ao se formar ou terminar o estágio, atualizar
+
+- [ ] Resumo: "Graduando em..." vira "Bacharel em Matemática Aplicada e Computacional".
+- [ ] Formação: tirar "(previsão)" da data.
+- [ ] Estágio: trocar "Presente" pela data final e passar os verbos para o passado.
+- [ ] Monitoria e Iniciação Científica: o mesmo, se tiverem terminado.
+- [ ] Conferir o título do cabeçalho de cada versão com o nome das vagas que estiver mirando (por exemplo, "Analista de Dados Júnior").
+
 ## Estrutura
 
 ```
