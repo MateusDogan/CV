@@ -1,21 +1,14 @@
+% Compilado pelo build.go, que define \vaga (dados, fpa ou produto).
 \documentclass[a4paper,11pt]{article}
 \usepackage{sty/loader}
 
 \begin{document}
 
-\input{src/1-intro}
+\input{\vaga/resumo}
+\input{comum/formacao}
+\input{\vaga/experiencia}
+\input{\vaga/projetos}
+\input{\vaga/habilidades}
+\input{comum/certificacoes}
 
-%-----------EDUCATION-----------
-\input{src/2-edu}
-
-%---------------------EXPERIENCE-----------
-\input{src/3-xp}
-
-%---------------------PROJECTS-------------
-\input{src/4-proj}
-
-%---------------------Courses-Skills-------
-\input{src/5-skill}
-
-%---------------------End------------------
 \end{document}

@@ -5,6 +5,7 @@
 *.fls
 *.fdb_latexmk
 *.synctex.gz
-*.pdf
-!CV.pdf
 build/
+.github/
+.claude/
+CLAUDE.md
