@@ -60,5 +60,4 @@ Os PDFs vão para a raiz e são versionados: sempre compile e faça commit dos P
 ## Pendências
 
 - [ ] Links dos certificados do Coursera em `sty/variables.sty` (`\certAnalyticsURL`, `\certProjectURL`, hoje `URL_HERE`).
-- [ ] Confirmar se "apoiar o planejamento da produção do restaurante" (projeto de Previsão de Demanda, versão de Produto) descreve o objetivo real do projeto.
 - [ ] Manter o perfil do LinkedIn igual ao currículo: o LinkedIn usa os dados do perfil, não só o PDF anexado.
