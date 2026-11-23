@@ -26,11 +26,7 @@
 %-------------------------
 % PAGE LAYOUT (MARGINS)
 %-------------------------
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.75in}
-\addtolength{\textheight}{1.5in}
+\RequirePackage[top=15mm,bottom=15mm,left=15mm,right=15mm,nohead,nofoot]{geometry}
 
 %-------------------------
 % GLOBAL STYLES
@@ -52,7 +48,7 @@
 \titleformat{\section}{
   \vspace{-4pt}\bfseries\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-\titlespacing*{\section}{0pt}{6pt}{10pt}  % menos espaço antes do título para caber em 1 página
+\titlespacing*{\section}{0pt}{9pt}{10pt}
 
 %-------------------------
 % LOAD VARIABLES & COMMANDS (from same sty/ folder)

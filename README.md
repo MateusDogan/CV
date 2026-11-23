@@ -53,6 +53,8 @@ Os PDFs vão para a raiz e são versionados: sempre compile e faça commit dos P
 ## Regras
 
 - **Uma página por currículo.** O `build.go` avisa quando passa.
+- **Impressão:** A4, fonte 10pt e margens de 15 mm (definidas em `sty/loader.sty`), para não cortar na impressora.
+- Se o `build.go` disser que o PDF está em uso, feche-o no leitor e rode de novo.
 - **ATS:** uma coluna, texto selecionável, fonte vetorial (`lmodern`), seções com nomes padrão, datas em mês e ano, siglas por extenso na primeira vez, palavras-chave exatas das vagas.
 - Mudanças no conteúdo passam pela aprovação do Mateus. O texto deve soar natural, sem frases de efeito.
 - A pasta da vaga muda o que é específico; o que for igual em todas fica em `comum/` ou `sty/`.
