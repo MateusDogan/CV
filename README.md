@@ -71,6 +71,20 @@ Os PDFs vão para a raiz e são versionados: sempre compile e faça commit dos P
 - Mudanças no conteúdo passam pela aprovação do Mateus. O texto deve soar natural, sem frases de efeito.
 - A pasta da vaga muda o que é específico; o que for igual em todas fica em `comum/` ou `sty/`.
 
+## Projetos para o portfólio
+
+O plano completo está em [`PROJETOS.md`](PROJETOS.md): o que falta publicar no GitHub, o projeto principal (drivers macroeconômicos para FP&A), o banco de ideias e a ordem sugerida. Escolhidos até agora:
+
+| Frente | Projeto |
+|---|---|
+| Churn | Churn de clientes B2B de serviços, com efeito no MRR e no forecast |
+| Produto | Calculadora de reajuste de aluguel e contratos (IGP-M, IPCA); finanças compartilhadas para repúblicas; calculadora de orçamento para o IGA |
+| Fechamento mensal | E-commerce; loja de roupas física; conciliação bancária a partir de PDFs (bank-parser) |
+| Dados abertos | Clima e agro (INMET e IBGE) |
+| Outros | Simulação de teste A/B; otimização de orçamento; roteirização ou estoque; business case de um produto |
+
+Quando um projeto ficar pronto, ele entra no currículo da vaga certa com o link do repositório.
+
 ## Pendências
 
 - [ ] Links dos certificados do Coursera em `sty/variables.sty` (`\certAnalyticsURL`, `\certProjectURL`, hoje `URL_HERE`).
